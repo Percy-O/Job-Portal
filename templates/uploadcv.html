@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="col-md-3">
+			<center><a  href="	" class="btn btn-info my-2"> <span class="fa fa-arrow-left"></span> Go back </a></center>
+			
+		</div>
+		</div>
+		<div class="col-md-4 bg-info" style="margin-top: 200px;border-radius: 20px;">
+			<h3 class="text-white py-2 text-center">Upload Your Cv</h3>
+			<div class="row">
+				<div class="col-md-12 bg-white">
+					<small class="text-center text-secondary">Note:If Required</small>
+					<div class="upload border my-2 py-2 bg-info justify-content-center text-center">
+						<!-- Button Triggered by the modal -->
+						<a href="" data-toggle="modal" data-target="#uploadcv" class=" btn btn-light btn-sm"><span class="fa fa-upload "> Upload CV</span></a>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="uploadcv" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="staticBackdropLabel">Upload Your CV Here!</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <form class="" action="" method="POST" enctype="multipart/form-data">
+					      <div class="modal-body">
+					        	{% csrf_token %}
+					        	{% include 'includes/messages.html' %}
+
+					        	{{job_user_username}}
+					        	<div class="form-group">
+					        		<label for="cvfile">Choose Your Preffered CV</label>
+					        		<input type="file" name="cv" class="form-control" >
+					        		<small>If for any reason the owner of the job said you should upload your CV</small><br>
+					        	</div>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button class="btn btn-primary">Upload CV</button>
+					      </div>
+					  </form>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			
+		</div>
+	</div>
+</div>
+
+
+
+{% endblock content %}

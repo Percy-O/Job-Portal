@@ -1,0 +1,78 @@
+{% extends 'Dashboard/base.html' %}
+
+{% load static %}
+{% block content %}
+<style type="text/css">
+	
+	.message{
+		min-height:300px;
+		overflow: auto;
+		width: 100%;
+		max-height: 350px;
+	}
+</style>
+<div class="container">
+	<div class="row " style="margin-top:50px;margin-bottom: 20px;" >
+		<div class="col-md-3">
+			
+			
+		</div>
+		<div class="col-md-6 ">
+			<h3 class="text-center">P<span class="text-info">Job</span>Portal ChatBot</h3> 
+			<div class="row bg-info" style="border-radius:10px;">
+				<div class="col-md-12 text-white justify-content-between align-items-center d-flex">
+					<div class="user-image my-2">
+						<img src="{{request.user.avatar.url}}" width="40" height="40" class="img img-fluid" style="border-radius: 100px;" >
+					</div>
+					<div class="text text-white">
+						<h4 class="text-center ">ChatBot</h4>
+					</div>
+					<div class="user d-flex align-items-center">
+						<span class="fa fa-user fa-2x px-2 mx-2" style="border-right:1px solid white;"> </span>  <b style="font-size:20px">  @{{request.user.username}}</b>
+					</div>
+				</div>
+				<div class="col-md-12 bg-white" style="min-height:300px">
+					<div class="message text-dark" >
+						{% if message %}
+							{% for message in message.chat.all %}
+								<div class="border py-2 px-3 my-2">
+										<div class="row">
+											<div class="col-md-12">
+												<span class="font-weight-bolder badge badge-info">
+												{{message.user_mail}}</span>
+											</div>
+											<div class="col-md-12 py-2" style="border-left:1px solid #1ac">
+												<span class=" px-3" >{{message.message}}</span>
+											</div>
+											<div class="col-md-12">
+												<span class="fa fa-clock-o"> {{message.message_posted|timesince}} ago</span>
+											</div>
+										</div>
+								</div>
+							{% endfor %}
+						{% endif %}
+					</div>
+					<form action="" method="POST">
+						{% csrf_token %}
+						<div class="form-group">
+							<div class="input-group">
+								
+							<input type="text" name="message" class="form-control" placeholder="Write Your Message" style="height:70px">
+							<div class="input-group-prepend">
+								<div class="input-group-text">
+									<button class="btn btn-info" style="height:70px">Send</button>
+								</div>
+							</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+	</div>
+</div>
+
+{% endblock content %}

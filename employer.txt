@@ -1,0 +1,217 @@
+Job:('https://www.jobberman.com/listings/photographer-5xnp52', '\nPhotographer\n', '\nSolpia Nigeria Ltd.\n', <img alt="Olan Amos Photography" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>, '\nWe are looking to hire a creative photographer to fill this position.\n')
+Job:('https://www.jobberman.com/listings/investment-principal-5xn457', '\nInvestment Principal\n', '\nJobberman (Third Party Recruitment)\n', <img alt="Jobberman (Third Party Recruitment)" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/7ba14d36d8fb4ba479270fceb0feb4b8/-/advertiser-img-ng-jobs-prod/dealer-images/advid3919/adv3919_1629907145.jpg" height="85" width="85"/>, '\nOur client is a member of one of the leading financial services institutions in Nigeria with subsidiaries that are market leaders in their respective segments. The group provides products and services across traditional asset classes, with plans to extend our products and services to include Alternative Assets products such as Private Credit Funds.\n')
+Job:('https://www.jobberman.com/listings/administrative-and-maintenance-officer-x2mdn2', '\n Administrative and Maintenance Officer\n', '\nPerfect Trust Cosmetics Ltd\n', <img alt="Perfect Trust Cosmetics Ltd" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/87de35c06998a5bcc6e51087907312f8/-/advertiser-img-ng-jobs-prod/dealer-images/advid193635/adv193635_1642080233.jpg" height="85" width="85"/>, '\nA Leading Cosmetics, Beauty, and Wellness Brand in Nigeria is recruiting for the post of an Admin and Maintenance officer. The maintenance officer will have a solid understanding of electrical systems as well as surveillance. The job holder will be well versed in all maintenance processes and health and safety regulations. The ideal candidate w ...\n')
+Job:('https://www.jobberman.com/listings/contract-administrator-w2x2rm', '\nContract Administrator\n', '\nJobberman (Third Party Recruitment)\n', <img alt="Jobberman (Third Party Recruitment)" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/7ba14d36d8fb4ba479270fceb0feb4b8/-/advertiser-img-ng-jobs-prod/dealer-images/advid3919/adv3919_1629907145.jpg" height="85" width="85"/>, '\nThe job holder will be responsible for preparing contracts, negotiating contract terms, reviewing, and updating existing contracts, explaining terms and conditions to the interested parties, analysing potential risks, monitoring potential causes of disagreement, identifying opportunities for claim/extra work, and sustaining them by contractual ...\n')
+Job:('https://www.jobberman.com/listings/senior-administrative-officer-jrg69v', '\nSenior Administrative Officer\n', '\nGRESYNDALE LEGAL\n', <img alt="GRESYNDALE LEGAL" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/947ae906461f380fcd2b9530503d840b/-/advertiser-img-ng-jobs-prod/dealer-images/advid38383/adv38383_1634291935.jpg" height="85" width="85"/>, '\nUnder administrative direction, directs, manages, supervises and coordinates the activities and operations of the Administrative division within an assigned department including purchasing, budgeting, accounting, personnel, information technology, and administrative support programs and services.\n')
+Job:('https://www.jobberman.com/listings/project-manager-g9rm7n', '\nProject Manager\n', '\nESSENZA NIGERIA LIMITED\n', <img alt="ESSENZA NIGERIA LIMITED" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/d1655f7ce883d8aadde7bb18dd84f3b1/-/advertiser-img-ng-jobs-prod/dealer-images/advid201426/adv201426_1652448715.jpg" height="85" width="85"/>, '\nLeads the initiation and planning of a project and ensures technical feasibility. Ensure resource availability and allocation. Develop a detailed plan to monitor and track the progress of the project. Coordinate with internal and external parties for the flawless execution of projects.\n')
+Job:('https://www.jobberman.com/listings/1st-2nd-line-it-desktopserver-support-engineer-rvwrmx', '\n"1st-2nd Line" IT Desktop/Server Support Engineer\n', '\nT-ONETCHNOLOGIES\n', <img alt="T-ONETCHNOLOGIES" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/698c8c27cf0ba377f33f43a758c2590f/-/advertiser-img-ng-jobs-prod/dealer-images/advid213950/adv213950_1654259598.jpg" height="85" width="85"/>, '\nWe are a managed IT services company with offices in Lagos and Abuja, we require an engineer to join our small friendly team. We are NOT a call center.\n')
+Job:('https://www.jobberman.com/listings/accounts-officer-99zkxw', '\nAccounts Officer\n', '\nSunej Global Ventures LTD\n', <img alt="Sunej Global Ventures LTD" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/0831ad34f0ec67fdec397b4d97b06824/-/advertiser-img-ng-jobs-prod/dealer-images/advid11980/adv11980_1654258316.jpg" height="85" width="85"/>, '\nA leading fintech/ cryptocurrency company is in need of an accounts officer who will Prepare and maintain all necessary books of accounts and financial statements such that Management can ascertain a true and accurate view of the financial position of the Company at any point in time.\n')
+Job:('https://www.jobberman.com/listings/production-leadership-program-eq8rzv', '\nProduction Leadership Program\n', '\nKuhl-Cher Limited\n', <img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>, '\nWe are recruiting early career graduates for the Production Leadership Program at FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. Successful applicants will start their FoodCo career in food production and take on increased responsibility after a six-month probation period.\n')
+Job:('https://www.jobberman.com/listings/branch-leadership-program-5xnpqx', '\nBranch Leadership Program\n', '\nKuhl-Cher Limited\n', <img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>, '\nWe are recruiting early career graduates for the Branch Leadership Program at FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. Successful applicants will start their careers working in different departments of the retail outlets. Branch leaders must have an excellent understanding of the full scope of operations in vari ...\n')
+Job:('https://www.jobberman.com/listings/finance-development-program-2qvk9j', '\nFinance Development Program\n', '\nKuhl-Cher Limited\n', <img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>, '\nWe are recruiting for the Accounting, Finance, Audit Development Program at FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. This is a program to develop professionals in accounting, audit, and finance, within the organization. Selected candidates will be placed on a three-month internship program and offered full emplo ...\n')
+Job:('https://www.jobberman.com/listings/management-intern-g9rmkn', '\nManagement Intern\n', '\nKuhl-Cher Limited\n', <img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>, '\nWe are recruiting Management Interns for FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. The Management Interns (FoodCo Fellows) are high-potential entry-level candidates, who will fill the managerial pipeline in the company. Selected candidates are placed on a three-month management internship program. They are given ...\n')
+Job:('https://www.jobberman.com/listings/information-technology-executive-rvwrkx', '\nInformation Technology Executive\n', '\nGems Communications Ltd\n', <img alt="Gems Communications Ltd" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/f6e6b2269770dd10e741036f9211166b/-/advertiser-img-ng-jobs-prod/dealer-images/advid21085/adv21085_1571330417.jpg" height="85" width="85"/>, '\nIT Executive is expected to possess knowledge of system engineering, software engineering, computer maintenance, networking, server administration, installation, repair, and troubleshooting.\n')
+Job:('https://www.jobberman.com/listings/associate-counsel-litigation-nxv9kz', '\nCommercial Litigation and Corporate Practice Lawyer\n', '\nElisio Law Office\n', <img alt="Elisio Law Office" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/dd6b1ac5b0816e73285e93d7f88ab386/-/advertiser-img-ng-jobs-prod/dealer-images/advid56627/adv56627_1654251549.jpg" height="85" width="85"/>, '\nWe are looking for an experienced Associate Counsel (litigation) to fill this position.\n')
+Job:('https://www.jobberman.com/listings/customer-service-assistant-0w6kxd', '\nCustomer Service Assistant\n', '\nJobberman (Third Party Recruitment)\n', <img alt="Gourmet Farmhouse" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>, '\nThe job holder will assist the Customer service unit in any of their needs, and be hyper-focused on customer inquiries/emails, administrative tasks, or any other necessary parties. He/She must have some knowledge of fashion and be able to take on any tasks and work well under pressure. This role is both analytical with consumers and product qua ...\n')
+Job:('https://www.jobberman.com/listings/human-resource-manager-0w6k0e', '\nHuman Resource Manager\n', '\nLafeza Consultants Ltd\n', <img alt="Jobberman (Third Party Recruitment)" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/7ba14d36d8fb4ba479270fceb0feb4b8/-/advertiser-img-ng-jobs-prod/dealer-images/advid3919/adv3919_1629907145.jpg" height="85" width="85"/>, '\nOur client, an Oil and Gas firm, currently playing in the midstream and upstream sector is seeking a passionate and resourceful hire. To manage the HR function of the Operation, to provide expertise and advisory to the business stakeholders on a wide range of employment services, including but not limited to employee relations, labor relations, ...\n')
+Job:('https://www.jobberman.com/listings/business-sales-coordinator-abuja-verdq8', '\nBusiness Sales Coordinator\n', '\nAsalaw Law Practice\n', <img alt="Lafeza Consultants Ltd" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>, '\nBusiness Sales Assistant to manage office operations and grow company sales of our Products and Services. We need a Business Sales assistant to drive sales of our unique products and support our technical team in their day to day activities. The right candidate will be passionate, results-driven and trustworthy.\n')
+Job:('https://www.jobberman.com/listings/legal-associate-zdk86k', '\nLegal Associate\n', '\nOlan Amos Photography\n', <img alt="Asalaw Law Practice" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/103580dfc55b354f4a182e527af1d9c3/-/advertiser-img-ng-jobs-prod/dealer-images/advid279396/adv279396_1654182192.jpg" height="85" width="85"/>, '\nA reputable law firm is seeking a dynamic, vibrant, and goal-driven individual with an entrepreneurial spirit who will carry out day-to-day legal operations in line with the company’s business which includes Advisory, Due Diligence, Property Searches, Title Perfection, Secretarial & Drafting Services, Facilities Management, General Negotiations ...\n')
+Job:('https://www.jobberman.com/listings/photographer-5xnp52', '\nPhotographer\n', '\nSolpia Nigeria Ltd.\n', <img alt="Olan Amos Photography" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>, '\nWe are looking to hire a creative photographer to fill this position.\n')
+Job:https://www.jobberman.com/listings/head-internal-control-department-0w6w4z
+
+Head, Internal Control Department
+
+
+Purplewall Consulting
+
+<img alt="Purplewall Consulting" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>
+
+Our client, a foremost trading company specializing in raw cocoa beans & cashew exportation with a capacity to effectively participate in the cocoa supply chain & add value to the confectionery industries worldwide seeks to recruit someone to Head its Internal Control Unit. The Head will develop & implement the Company's Internal Control framework.
+
+Job:https://www.jobberman.com/listings/head-of-business-development-x2m6zn
+
+Head of Business Development
+
+
+Jobberman (Third Party Recruitment)
+
+<img alt="Jobberman (Third Party Recruitment)" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/7ba14d36d8fb4ba479270fceb0feb4b8/-/advertiser-img-ng-jobs-prod/dealer-images/advid3919/adv3919_1629907145.jpg" height="85" width="85"/>
+
+To create and implement marketing and sales strategies to achieve sustainable financial growth and build strong relationships with clients. To be responsible for the overall performance of the Marketing and Sales teams in FCMBAM. To come up with ideas for identifying new business opportunities, to attain financial targets such as Assets under M ...
+
+Job:https://www.jobberman.com/listings/administrative-and-maintenance-officer-x2mdn2
+
+Administrative and Maintenance Officer
+
+
+Perfect Trust Cosmetics Ltd
+
+<img alt="Perfect Trust Cosmetics Ltd" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/87de35c06998a5bcc6e51087907312f8/-/advertiser-img-ng-jobs-prod/dealer-images/advid193635/adv193635_1642080233.jpg" height="85" width="85"/>
+
+A Leading Cosmetics, Beauty, and Wellness Brand in Nigeria is recruiting for the post of an Admin and Maintenance officer. The maintenance officer will have a solid understanding of electrical systems as well as surveillance. The job holder will be well versed in all maintenance processes and health and safety regulations. The ideal candidate w ...
+
+Job:https://www.jobberman.com/listings/senior-administrative-officer-jrg69v
+
+Senior Administrative Officer
+
+
+GRESYNDALE LEGAL
+
+<img alt="GRESYNDALE LEGAL" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/947ae906461f380fcd2b9530503d840b/-/advertiser-img-ng-jobs-prod/dealer-images/advid38383/adv38383_1634291935.jpg" height="85" width="85"/>
+
+Under administrative direction, directs, manages, supervises and coordinates the activities and operations of the Administrative division within an assigned department including purchasing, budgeting, accounting, personnel, information technology, and administrative support programs and services.
+
+Job:https://www.jobberman.com/listings/project-manager-g9rm7n
+
+Project Manager
+
+
+ESSENZA NIGERIA LIMITED
+
+<img alt="ESSENZA NIGERIA LIMITED" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/d1655f7ce883d8aadde7bb18dd84f3b1/-/advertiser-img-ng-jobs-prod/dealer-images/advid201426/adv201426_1652448715.jpg" height="85" width="85"/>
+
+Leads the initiation and planning of a project and ensures technical feasibility. Ensure resource availability and allocation. Develop a detailed plan to monitor and track the progress of the project. Coordinate with internal and external parties for the flawless execution of projects.
+
+Job:https://www.jobberman.com/listings/1st-2nd-line-it-desktopserver-support-engineer-rvwrmx
+
+"1st-2nd Line" IT Desktop/Server Support Engineer
+
+
+T-ONETCHNOLOGIES
+
+<img alt="T-ONETCHNOLOGIES" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/698c8c27cf0ba377f33f43a758c2590f/-/advertiser-img-ng-jobs-prod/dealer-images/advid213950/adv213950_1654259598.jpg" height="85" width="85"/>
+
+We are a managed IT services company with offices in Lagos and Abuja, we require an engineer to join our small friendly team. We are NOT a call center.
+
+Job:https://www.jobberman.com/listings/accounts-officer-99zkxw
+
+Accounts Officer
+
+
+Sunej Global Ventures LTD
+
+<img alt="Sunej Global Ventures LTD" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/0831ad34f0ec67fdec397b4d97b06824/-/advertiser-img-ng-jobs-prod/dealer-images/advid11980/adv11980_1654258316.jpg" height="85" width="85"/>
+
+A leading fintech/ cryptocurrency company is in need of an accounts officer who will Prepare and maintain all necessary books of accounts and financial statements such that Management can ascertain a true and accurate view of the financial position of the Company at any point in time.
+
+Job:https://www.jobberman.com/listings/production-leadership-program-eq8rzv
+
+Production Leadership Program
+
+
+Kuhl-Cher Limited
+
+<img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>
+
+We are recruiting early career graduates for the Production Leadership Program at FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. Successful applicants will start their FoodCo career in food production and take on increased responsibility after a six-month probation period.
+
+Job:https://www.jobberman.com/listings/branch-leadership-program-5xnpqx
+
+Branch Leadership Program
+
+
+Kuhl-Cher Limited
+
+<img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>
+
+We are recruiting early career graduates for the Branch Leadership Program at FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. Successful applicants will start their careers working in different departments of the retail outlets. Branch leaders must have an excellent understanding of the full scope of operations in vari ...
+
+Job:https://www.jobberman.com/listings/finance-development-program-2qvk9j
+
+Finance Development Program
+
+
+Kuhl-Cher Limited
+
+<img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>
+
+We are recruiting for the Accounting, Finance, Audit Development Program at FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. This is a program to develop professionals in accounting, audit, and finance, within the organization. Selected candidates will be placed on a three-month internship program and offered full emplo ...
+
+Job:https://www.jobberman.com/listings/management-intern-g9rmkn
+
+Management Intern
+
+
+Kuhl-Cher Limited
+
+<img alt="Kuhl-Cher Limited" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/c4d45e950f08a3e7910613729f9585c6/-/advertiser-img-ng-jobs-prod/dealer-images/advid275416/adv275416_1654254637.jpg" height="85" width="85"/>
+
+We are recruiting Management Interns for FoodCo Nigeria Limited, a leading multichannel retail company in Nigeria. The Management Interns (FoodCo Fellows) are high-potential entry-level candidates, who will fill the managerial pipeline in the company. Selected candidates are placed on a three-month management internship program. They are given ...
+
+Job:https://www.jobberman.com/listings/information-technology-executive-rvwrkx
+
+Information Technology Executive
+
+
+Gems Communications Ltd
+
+<img alt="Gems Communications Ltd" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/f6e6b2269770dd10e741036f9211166b/-/advertiser-img-ng-jobs-prod/dealer-images/advid21085/adv21085_1571330417.jpg" height="85" width="85"/>
+
+IT Executive is expected to possess knowledge of system engineering, software engineering, computer maintenance, networking, server administration, installation, repair, and troubleshooting.
+
+Job:https://www.jobberman.com/listings/associate-counsel-litigation-nxv9kz
+
+Commercial Litigation and Corporate Practice Lawyer
+
+
+Elisio Law Office
+
+<img alt="Elisio Law Office" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/dd6b1ac5b0816e73285e93d7f88ab386/-/advertiser-img-ng-jobs-prod/dealer-images/advid56627/adv56627_1654251549.jpg" height="85" width="85"/>
+
+We are looking for an experienced Associate Counsel (litigation) to fill this position.
+
+Job:https://www.jobberman.com/listings/customer-service-assistant-0w6kxd
+
+Customer Service Assistant
+
+
+Jobberman (Third Party Recruitment)
+
+<img alt="Gourmet Farmhouse" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>
+
+The job holder will assist the Customer service unit in any of their needs, and be hyper-focused on customer inquiries/emails, administrative tasks, or any other necessary parties. He/She must have some knowledge of fashion and be able to take on any tasks and work well under pressure. This role is both analytical with consumers and product qua ...
+
+Job:https://www.jobberman.com/listings/human-resource-manager-0w6k0e
+
+Human Resource Manager
+
+
+Lafeza Consultants Ltd
+
+<img alt="Jobberman (Third Party Recruitment)" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/7ba14d36d8fb4ba479270fceb0feb4b8/-/advertiser-img-ng-jobs-prod/dealer-images/advid3919/adv3919_1629907145.jpg" height="85" width="85"/>
+
+Our client, an Oil and Gas firm, currently playing in the midstream and upstream sector is seeking a passionate and resourceful hire. To manage the HR function of the Operation, to provide expertise and advisory to the business stakeholders on a wide range of employment services, including but not limited to employee relations, labor relations, ...
+
+Job:https://www.jobberman.com/listings/business-sales-coordinator-abuja-verdq8
+
+Business Sales Coordinator
+
+
+Asalaw Law Practice
+
+<img alt="Lafeza Consultants Ltd" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>
+
+Business Sales Assistant to manage office operations and grow company sales of our Products and Services. We need a Business Sales assistant to drive sales of our unique products and support our technical team in their day to day activities. The right candidate will be passionate, results-driven and trustworthy.
+
+Job:https://www.jobberman.com/listings/legal-associate-zdk86k
+
+Legal Associate
+
+
+Olan Amos Photography
+
+<img alt="Asalaw Law Practice" class="max-w-none lazyload" data-src="https://i.roamcdn.net/kazi/ng/hq/103580dfc55b354f4a182e527af1d9c3/-/advertiser-img-ng-jobs-prod/dealer-images/advid279396/adv279396_1654182192.jpg" height="85" width="85"/>
+
+A reputable law firm is seeking a dynamic, vibrant, and goal-driven individual with an entrepreneurial spirit who will carry out day-to-day legal operations in line with the company’s business which includes Advisory, Due Diligence, Property Searches, Title Perfection, Secretarial & Drafting Services, Facilities Management, General Negotiations ...
+
+Job:https://www.jobberman.com/listings/photographer-5xnp52
+
+Photographer
+
+
+Solpia Nigeria Ltd.
+
+<img alt="Olan Amos Photography" class="max-w-none lazyload" data-src="/build/static-assets/img/briefcase-square.77d0ca38.svg" height="85" width="85"/>
+
+We are looking to hire a creative photographer to fill this position.
+

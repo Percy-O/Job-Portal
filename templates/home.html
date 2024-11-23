@@ -1,0 +1,328 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block header_content%}
+	{% include '_header.html' %}
+{% endblock %}
+
+
+{% block content %}
+
+<style type="text/css">
+	
+	input[type="search"]{
+		border: none;
+		width: 80%;
+		font-size: 12px;
+		height: 50px;
+		background-color: white;
+		padding-left: 5px;
+		/*outline: none !important;*/
+
+
+
+	}
+	.form{
+		background-color: #000;
+	}
+	input[type="search"]:focus{
+		outline: none !important;
+		color: rgba(0, 0, 0,0.5);
+		padding: 15px;
+		position: relative;
+	}
+	.input-group-append{
+		background-color: #1ac;
+		border-radius: 4px;
+	}
+	.input-group-append:hover{
+		background-color: #fff !important;
+	}
+	.input-group-text{
+		width: 50px;
+	}
+	.search{
+		background-color: transparent;
+		border-radius: 4px !important;
+		border: none;
+		color: #f2f2f2;
+	}
+	.search:hover{
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
+	}
+
+	.header{
+
+		/*background-image: url('{% static "images/background.jpg" %}');*/
+		background : url('{% static "images/job1.jpg" %}');
+        background-repeat: no-repeat;
+        background-size: cover; 
+		background-attachment:scroll; 
+        background-position: top center;
+        position: relative;
+        height: 500px;
+        padding-top: 100px;
+
+	}
+	.header::before{
+		content: '';
+		position: absolute;
+		background: rgba(0, 0, 0,0.8);
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		}
+
+	.card .card-body .text{
+		font-size: 15px !important;
+		text-align: justify;
+	}
+
+
+	.header-content{
+		margin-top: 100px;
+	}
+	
+</style>
+
+<div class="header">
+	<div class="container-fluid">
+
+		<div class="row d-flex align-items-center">
+			<div class="col-sm-12 col-md-12 header-content" >
+				<div class="header-text text-white text-center">
+					<h2>Find Recents Jobs All Around The World In P<span class="text-info">Job</span>Portal</h2>
+				</div>
+				<form action="{% url 'home' %}" method="GET">
+		
+					<div class="input-group bg-transparent search-form mr-auto ml-auto justify-content-center " style="border-radius: 4px;">
+						<input type="search" name="q" id="" class="" placeholder="Search For Preffered Job">
+						<div class="input-group-append" style="padding-top: 10px;">
+							<span class="input-group-text" id="my-addon">
+								<button class="btn btn-light  search" ><i class="fa fa-search-plus" aria-hidden="true"></i> Search Now</button>
+							</span>
+						</div>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div> 
+</div>
+<div class="container py-2"> 
+	{% include 'includes/messages.html' %}
+	<div class="row">
+
+		<h3 class="mr-auto ml-auto bg-dark text-sm mt-3 border p-3 w-100 text-white font-weight-bolder" style="background-color: #46d;"> <span class="fa fa-star"></span> All Jobs Available</h3>
+
+	</div>
+
+		<h5 class="h5 mt-3">---------- Feautured Post</h5>
+	<div class="row my-3">
+		{% for job in jobs %}
+		<div class=" col-sm-6 col-md-6 col-lg-3 mb-3">
+			<div class="card">
+
+			<div class="card-header" >
+				<img src="{{job.job_image.url}}" class="img-fluid w-100" width="315" height="200" >
+		
+			</div>
+			
+			<div class="card-body">
+				<!-- Name of the job -->
+				<div class="card-title">
+					<h5 class="bg-dark text-white text-center p-2 rounded"> {{job.job_title}}</h5>
+				</div>
+				<!-- Meta information -->
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12 ">
+						<span class="fa fa-user" ></span>
+							<b style="font-size:11px">Posted By: {{job.user.username}}</b>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<span class="fa fa-clock-o"></span>
+							<b style="font-size:11px">{{job.date_posted|timesince}} ago</b>
+					</div>
+				</div>
+				
+				<hr>
+				<!-- Description -->
+				<div class="card-subtitle">
+					{{job.job_description|truncatechars:100}}<br>
+					<a href="{% url 'job' job.job_title %}" class="text-info" ></span>See More <span class="fa fa-arrow-right"></a>
+				</div>
+
+			</div>
+		</div>
+		
+		</div>
+		{% endfor %}
+
+		<!-- Pagination -->
+		<div class="col-md-12">
+
+			<div class="row mt-5 ">
+				<div class="col-md-12 ">
+
+					{% if jobs.has_other_pages %} 
+					<nav aria-label="PageLink ">
+				                <ul class="pagination float-right" >
+				                	{% if jobs.has_previous %}
+					                    <li class="page-item" aria-label="previous">
+					                        <a class="page-link" href="?page_job={{jobs.previous_page_number}}">
+					                             <i class="fa fa-arrow-left" aria-hidden="true"></i>
+					                        </a>
+					                    </li>
+					                    {% else %}
+					                    <li class="disabled" aria-label="previous">
+					                        <a class="page-link disabled">
+					                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+					                        </a>
+					                    </li>
+				                    {% endif %}
+				                    {% for number in jobs.paginator.page_range %}
+				                    	
+				                    	{% if jobs.number == number %}
+				                    		<li class="page-item active"><a class="page-link" href="?page={{number}}">Page {{number}}</a></li>
+				                    	{% endif %}
+				                    {% endfor %}
+				                    {% if jobs.has_next %}
+				                    <li class="page-item" aria-label="Next">
+				                        <a class="page-link" href="?page_job={{jobs.next_page_number}}">
+				                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				                        </a>
+				                    </li>
+				                    {% else %}
+				                    <li class="disabled " aria-label="Next">
+				                        <a class="page-link disabled">
+				                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				                        </a>
+				                    </li>
+				                    {% endif %}
+				                </ul>
+				            </nav>
+				        {% endif %}
+
+
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	<hr>
+
+	<!-- JobberMan Content -->
+
+	<h5 class="h5 mt-3">---------- Recents JobberMan Post</h5>
+	<div class="row my-3">
+		{% for job in crawljobs %}
+		<div class=" col-sm-6 col-md-6 col-lg-3 mb-3">
+			<div class="card">
+
+			<div class="card-header" >
+				<img src="{{job.job_image.url}}" class="img-fluid w-100" width="315" height="200" >
+		
+			</div>
+			
+			<div class="card-body">
+				<!-- Name of the job -->
+				<div class="card-title">
+					<h5 class="bg-dark text-white text-center p-2 rounded"> <a class="text-white" href="{{job.job_link}}">{{job.job_title}}</a></h5>
+				</div>
+				<!-- Meta information -->
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12 ">
+						<span class="fa fa-user" ></span>
+							<b style="font-size:11px">Source: <a class="text-dark" href="https://jobberman.com">{{job.user}}</a></b>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-12 ">
+						<span class="fa fa-user" ></span>
+							<b style="font-size:11px">From: {{job.job_employer}}</b>
+					</div>
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<span class="fa fa-clock-o"></span>
+							<b style="font-size:11px">{{job.date_posted|timesince}} ago</b>
+					</div>
+				</div>
+				
+				<hr>
+				<!-- Description -->
+				<div class="card-subtitle">
+					{{job.job_description|truncatechars:100}}<br>
+					<a href="{{job.job_link}}" class="text-info" target="_blank"></span>See More <span class="fa fa-arrow-right"></a>
+				</div>
+			</div>
+		</div>
+		
+		</div>
+		{% endfor %}
+		<!-- Pagination -->
+		<div class="col-md-12">
+
+			<div class="row mt-5 ">
+				<div class="col-md-12 justify-content-between align-items-center d-flex ">
+					<div style="color: #1ac;font-style: italic;">{{crawlsjobs.all.count}} jobs available</div>
+					{% if crawljobs.has_other_pages %}
+					<nav aria-label="PageLink ">
+				                <ul class="pagination float-right" >
+				                	{% if crawljobs.has_previous %}
+					                    <li class="page-item" aria-label="previous">
+					                        <a class="page-link" href="?page_crawl_job={{crawljobs.previous_page_number}}">
+					                             <i class="fa fa-arrow-left" aria-hidden="true"></i>
+					                        </a>
+					                    </li>
+					                    {% else %}
+					                    <li class="disabled" aria-label="previous">
+					                        <a class="page-link disabled">
+					                            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+					                        </a>
+					                    </li>
+				                    {% endif %}
+				                    {% for number in crawljobs.paginator.page_range %}
+				                    	
+				                    	{% if crawljobs.number == number %}
+				                    		<li class="page-item active"><a class="page-link" href="?page={{number}}">Page {{number}}</a></li>
+				                    	{% endif %}
+				                    {% endfor %}
+				                    {% if crawljobs.has_next %}
+				                    <li class="page-item" aria-label="Next">
+				                        <a class="page-link" href="?page_crawl_job={{crawljobs.next_page_number}}">
+				                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				                        </a>
+				                    </li>
+				                    {% else %}
+				                    <li class="disabled " aria-label="Next">
+				                        <a class="page-link disabled">
+				                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				                        </a>
+				                    </li>
+				                    {% endif %}
+				                </ul>
+				            </nav>
+				        {% endif %}
+
+
+				</div>
+			
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<center>
+		<!-- pagination -->
+</div>
+</center>
+
+
+{% include '_footer.html' %}
+{% endblock %}

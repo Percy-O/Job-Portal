@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block header_content%}
+	{% include '_header.html' %}
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.header{
+		min-height: 600px;
+		width: 100vw;
+		background-image: url('{{job.job_image.url}}');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center top;
+		position: relative;
+	}
+
+	.header::before{
+		content: '';
+		position: absolute;
+		background: rgba(0, 0, 0,0.5);
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		}
+	.header h4{
+		position: relative;
+	}
+
+	.job-content,.sidebar{
+		min-height: 200px;
+
+	}
+
+</style>
+
+
+<div class="header d-flex align-items-end">
+	<h4 class="h4 mr-auto ml-auto bg-dark p-3 rounded text-white text-uppercase">{{job.job_title}}</h4>
+</div>
+<div class="container">
+	<div class="row my-5 job-content">
+		<div class="col-md-8 bg-white rounded vh-100 pt-5">
+			<h2 class="h2">{{job.job_title}}</h2>
+			<div class="meta">
+				<span class="badge badge-info badge-pill">Posted By: {{job.user.name}}</span>
+				<span class="badge badge-info badge-pill">Uploaded: {{job.date_posted|timesince}} ago</span>
+			</div>
+			<hr>
+			<p class="" style="font-size: 15px;"><span class="font-weight-bold">Job Description:</span><br>{{job.job_description}}.<p> 
+
+		</div>
+		<div class="col-md-4 ">
+			<div class="col-md-12 bg-white rounded sidebar pt-5 ">
+				<div class="row">
+					<h4 class="text-center mr-auto ml-auto">Contact Us</h4>
+					<div class="col-12">
+						<hr>
+						<a class="btn btn-info btn-block" href="mailto:{{job.email}}"> 
+							<span class="fa fa-envelope"></span> Email
+						</a>
+					</div>
+					<div class="col-12 ">
+						<hr>
+						<a class="btn btn-info btn-block" href="tel:{{job.phone_num}}"> 
+							<span class="fa fa-phone"></span> Call Us
+						</a>
+					</div>
+					<hr>
+					<div class="col-12 ">
+						<hr>
+						<a class="btn btn-info btn-block" href="https://wa.me//{{job.whatsapp_num}}">
+							 <span class="fa fa-whatsapp"></span> Chat with us
+						</a>
+					</div>
+
+					<div class="col-12">
+						<hr>
+						<a class="btn btn-info btn-block" href="{% url 'chatbot' job.id %}"> 
+							<span class="fa fa-inbox"></span> Use Our ChatBot
+						</a>
+					</div>
+
+				</div>
+				<hr>
+				<div class="row ">
+					
+				</div> 
+			</div>
+		</div>
+	</div>
+</div>
+
+{% include '_footer.html' %}
+
+{% endblock content %}

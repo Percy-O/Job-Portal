@@ -1,0 +1,61 @@
+{% extends 'Dashboard/base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+
+<!-- Breadcrumbs -->
+<div aria-label="Page breadcrumb">
+    <ol class="breadcrumb" style="background-color: #f1f1f1;">
+        <li class="breadcrumb-item"><a href="{% url 'dashboard' %}">Dashboard</a></li>
+        <li class="breadcrumb-item active" aria-current="page">All Job</li>
+    </ol>
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-striped">
+			<thead>
+				<tr class="bg-info text-white">
+					<th>ID</th>
+					<th>Posted By</th>
+					<th>Job Caption</th>
+					<th>Description</th>
+					<th>Email</th>
+					<th>Phone Number</th>
+					<th>Whatsapp Number</th>
+					<th>Image</th>
+					<th>Job Status</th>
+					<th>Date Posted</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				{% for job in jobs %}
+				<tr>
+					<td> {{job.pk}}</td>
+					<td> {{job.user.username}}</td>
+					<td> {{job.job_title}}</td>
+					<td> {{job.job_description}}</td>
+					<td> {{job.email}}</td>
+					<td> {{job.phone_num}}</td>
+					<td> {{job.whatsapp_num}}</td>
+					<td> <img src="{{job.job_image.url}}" width="70" height="70" /></td>
+					<td>
+						{% if job.status == False %}
+						    Job Active
+						{% else %}
+						    Job Close
+						{% endif %}
+					</td>
+					<td>{{job.date_posted}}</td>
+					<td class="align-self-center d-flex"><a class="btn btn-sm btn-light" href="{% url 'update_job' job.id %}">Update</a></td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+{% endblock content %}

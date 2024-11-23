@@ -1,0 +1,89 @@
+<style type="text/css">
+	
+	.footer{
+		background-color: rgba(255, 255, 255,0.8);
+		color: dark;
+		min-height: 300px !important;
+		width: 100% !important;
+		max-height: 700px;
+
+	}
+	.footer-credit-text{
+		border-top: 1px solid #1ac;
+		font-size: 15px;
+		text-align: center;
+	}
+</style>
+
+<footer>
+	<div class="footer"> 
+		<div class="footer-content">
+			<div class="footer-content-text">
+				<div class="container">
+					<div class="row" style=" min-height: 200px;">
+						<div class="col-md-4 p-3" style="border-right: 1px solid white;">
+							<h3 class="mt-2">About P<span class="text-info">Job</span>Portal</h3>
+							<hr style="border:1px dashed black">
+							<p> PJobPortal is an online job portal that shows all availble,trending and current jobs online and have real access to the job owner.</p>
+
+							<a href="#" class="btn btn-info"> Know More</a>
+						</div>
+
+						<div class="col-md-4 p-3" style="border-right: 1px solid white;">
+							<h3 class="mt-2">Subscribe To Newsletter</h3>
+							<hr style="border:1px dashed black">
+
+							<form class="" action="" method="POST">
+								{% csrf_token %}
+
+								<div class="form-group">
+									<label for="email"> Your Email Address</label>
+									<input type="email" name="email" class="form-control">
+									<small>Subscribe To Our Newsletter To Get Infomations About Any Job</small>
+								</div>
+								<button class="btn btn-info" >Subscribe</button>
+							</form>
+						</div>
+
+						<div class="col-md-4 p-3">
+							<div class="row">
+								
+
+								<div class="col-md-12 ">
+									<h4 class="mt-2">Follow us</h4>
+									<hr style="border:1px dashed black">
+
+									<a href="#" class="btn btn-info text-white" >
+										<span class="fa fa-facebook" style="font-size: 13px;" > Facebook</span> 
+									</a>
+									<hr>
+									<a href="#" class="btn btn-info text-white" >
+										<span class="fa fa-twitter " style="font-size: 13px;"> Twitter</span> 
+									</a>
+									<hr>
+									<a href="#" class="btn btn-info text-white" >
+										<span class="fa fa-instagram " style="font-size: 13px;"> Instagram</span>
+									</a>
+									<hr>
+									<a href="#" class="btn btn-info text-white" >
+										<span class="fa fa-whatsapp  " style="font-size: 13px;"> Whatsapp</span>
+									</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-credit mt-3 ">
+
+			<div class="container-fluid">
+			<div class="col-md-12  footer-credit-text">
+				<h5 class="align-self-center justify-content-center mt-3"> &copy; Copyright - PJOBPORTAL - All right reserved - <span class="text-info">Designed by Ptechnology</span> </h5>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</footer>

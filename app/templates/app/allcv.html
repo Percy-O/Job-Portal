@@ -1,0 +1,44 @@
+{% extends 'Dashboard/base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+
+<!-- Breadcrumbs -->
+<div aria-label="Page breadcrumb">
+    <ol class="breadcrumb" style="background-color: #f1f1f1;">
+        <li class="breadcrumb-item"><a href="{% url 'dashboard' %}">Dashboard</a></li>
+        <li class="breadcrumb-item active" aria-current="page">All cv
+</li>
+    </ol>
+</div>
+<hr>
+
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-striped">
+			<thead>
+				<tr class="bg-info text-white">
+					<th>ID</th>
+					<th>Employer</th>
+					<th>Employee Email</th>
+					<th>CV File Download</th>
+					<th>Date Posted</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				{% for cv in cvs %}
+				<tr>
+					<td> {{cv.pk}}</td>
+					<td> {{cv.job_user.name}}</td>
+					<td> {{cv.mail}}</td>
+					<td class="align-self-center d-flex"><a class="btn btn-sm btn-light" href="{{cv.cv.url}}">Download CV</a></td>
+					<td> {{cv.date_uploaded}}</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+{% endblock content %}

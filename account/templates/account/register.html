@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+<style type="text/css">
+
+.page{
+	width: 100%;
+}
+.page-info{
+	background-color: #1ac !important;
+	height: 100vh;
+	width: 60%;
+	position: absolute;
+
+}
+.page-form{
+	width: 40%;
+	height: 100vh;
+	margin-left: 60%;
+	background-color: #fff !important;
+	position: absolute;	
+
+
+}
+
+</style>
+<div class="page">
+	<div class="page-info">
+		<div class="container">
+			<h1 class="mt-3 text-center text-white">Welcome to P<span class="text-dark">Job</span>Portal</h1>
+			<hr>
+			<div class="img">
+				<img alt="" src="{% static 'images/job6.png' %}" width="100%"/>
+			</div>
+			
+			<a href="{% url 'home' %}" class=" btn btn-light btn-lg d-flex justify-content-center ">Go To Homepage</a>
+			
+		</div>
+	</div>
+
+	<div class="page-form align-items-center">
+		<div class="container  px-5 py-2">
+			<h1 class="mt-2 text-center text-dark">Register<span class="text-info"> Here!</span></h1>
+			<hr>
+			<div class="row">
+				<div class="col-md-12">
+					{% include 'includes/messages.html' %}
+					<form action="" method="post" enctype="multipart/form-data" >
+	                 {% csrf_token %}
+					 <div class="row">
+					 	<div class="col-md-6">
+					 		<div class="form-group my-0">
+			                    {{form.name|as_crispy_field}}
+			                    <small id="helpId" class="text-muted">Your Full Name</small>
+		                  	</div>
+					 	</div>
+					 	<div class="col-md-6">
+					 		<div class="form-group my-0">
+			                    {{form.username|as_crispy_field}}
+			                </div>
+					 	</div>
+					 </div>
+	                  
+	                  <div class="form-group">
+	                    {{form.email|as_crispy_field}}
+	                    <small id="helpId" class="text-muted">Enter Your Email Address</small>
+	                  </div>
+		              <div class="form-group">
+		                {{form.password1|as_crispy_field}}
+		              </div>
+
+		              <div class="form-group">
+		                {{form.password2|as_crispy_field}}
+		              </div>
+				         
+
+	                    <button type="submit" class="btn btn-dark btn-lg"><i class="fa fa-user" aria-hidden="true"></i> Register</button> <hr>
+						<center>
+							<small class="text-center"> If registered 
+								<a href="{% url 'login' %}" class="btn-link">Login</a>
+							</small>
+						</center>
+	                </form>	        
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
